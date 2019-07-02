@@ -22,7 +22,7 @@ A list of the records to add to the zone. Each entry is in the following format:
 DESCRIPTION
 
 
-  type = list(string)
+  type = list(any)
 }
 
 variable "record_set_count" {
