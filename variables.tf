@@ -28,6 +28,6 @@ DESCRIPTION
 variable "record_set_count" {
   default = 0
   description = "The number of record sets to add."
-  type = string
+  type = number
 }
 
