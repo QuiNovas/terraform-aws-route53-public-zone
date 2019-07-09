@@ -20,14 +20,5 @@ A list of the records to add to the zone. Each entry is in the following format:
     ttl     = "3600"
   }
 DESCRIPTION
-
-
-  type = list(any)
+  type = list(map(string))
 }
-
-variable "record_set_count" {
-  default = 0
-  description = "The number of record sets to add."
-  type = number
-}
-
