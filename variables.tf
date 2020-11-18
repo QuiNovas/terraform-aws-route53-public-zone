@@ -20,5 +20,5 @@ A list of the records to add to the zone. Each entry is in the following format:
     ttl     = "3600"
   }
 DESCRIPTION
-  type = list(map(string))
+  type        = list(map(string))
 }
