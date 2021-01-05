@@ -7,3 +7,8 @@ output "name_servers" {
   description = "A list of name servers in associated (or default) delegation set"
   value       = aws_route53_zone.zone.name_servers
 }
+
+output "domain_name" {
+  description = "Hosted zone Domain name"
+  value       = var.name
+}
