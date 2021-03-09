@@ -1,4 +1,4 @@
-# terraform-aws-rotating-secret
+# terraform-aws-route53-public-zone
 
 This module creates a Route53 public zone.
 
