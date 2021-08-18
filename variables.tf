@@ -22,3 +22,9 @@ A list of the records to add to the zone. Each entry is in the following format:
 DESCRIPTION
   type        = list(map(string))
 }
+
+variable "tags" {
+  description = "(Optional) A mapping of tags to assign to the resources"
+  type        = map(string)
+  default     = {}
+}
