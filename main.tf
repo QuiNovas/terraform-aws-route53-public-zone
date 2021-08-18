@@ -4,6 +4,7 @@ resource "aws_route53_zone" "zone" {
     prevent_destroy = true
   }
   name = var.name
+  tags = var.tags
 }
 
 resource "aws_route53_record" "record" {
